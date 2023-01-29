@@ -2,10 +2,13 @@ body {
     margin: 0px;
     display: flex;
     flex-direction: column;
+    font-size: 18px;
+    
 }
 
+
 .header {
-    height: 14vh;
+    height: 17vh;
     background-color: rgb(255, 255, 255);
     color: rgb(61, 151, 42);
     display: flex;
@@ -13,9 +16,10 @@ body {
     justify-content: center;
     gap: 20px;
     position: sticky; top: 0;
-    font-size: 3vh;
+    font-size: 2.8vh;
     border: 0.3vw solid rgb(61, 151, 42);
     box-shadow: 15px 0px 10px rgb(61, 151, 42);
+    flex-direction: column;
 }
 
 .header img {
@@ -27,7 +31,7 @@ body {
 main {
     display: flex;
     background-color: rgb(255, 247, 199);
-    height: 1000px;
+  
 }
 
 .sidebar {
@@ -40,9 +44,13 @@ main {
 
 .mainDisplay {
    background-color: rgb(255, 255, 255);
+   display: flex;
+   flex-direction: column;
    margin: 20px;
    flex: auto;
    border: 0.38vw solid rgb(61, 151, 42);
+   justify-content: center;
+   align-items: center;
 }
 
 .mainheader {
@@ -50,4 +58,38 @@ main {
     gap: 15px;
     justify-content: center;
     align-items: center;
+    margin-top: 1.9vh;
+}
+
+.class {
+    margin-top: -9vh;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200,200,200);
+    letter-spacing: 1px;
+    font-size: 1.7vw;
+   
+}
+
+td, th {
+    border: 1px solid black;
+    color: black;
+}
+
+.nomenclatureTable {
+    display: flex;
+    justify-content: center;
+    margin-top: 1vh;
+    margin-bottom: 8vh;
+}
+
+sup {
+    font-size: 1vw; 
+}
+
+sub {
+    font-size: 1vw;
+   
 }
