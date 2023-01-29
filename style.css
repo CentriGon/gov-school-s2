@@ -1,0 +1,45 @@
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 14vh;
+    background-color: rgb(255, 255, 255);
+    color: rgb(61, 151, 42);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: sticky; top: 0;
+    font-size: 3vh;
+    border: 0.38vw solid rgb(61, 151, 42);
+}
+
+.header img {
+    width: 10vh;
+    height: 10vh;
+    margin-left: -5px;
+}
+
+main {
+    display: flex;
+    background-color: rgb(255, 247, 199);
+    height: 1000px;
+}
+
+.sidebar {
+    background-color: rgb(255, 255, 255);
+    max-width: 15vw;
+    flex: auto;
+    border: 0.38vw solid rgb(61, 151, 42);
+    border-top: 0px;
+}
+
+.mainDisplay {
+   background-color: rgb(255, 255, 255);
+   margin: 20px;
+   flex: auto;
+   border: 0.38vw solid rgb(61, 151, 42);
+}
