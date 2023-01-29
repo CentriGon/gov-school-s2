@@ -6,9 +6,8 @@ body {
     
 }
 
-
 .header {
-    height: 17vh;
+    height: 15vh;
     background-color: rgb(255, 255, 255);
     color: rgb(61, 151, 42);
     display: flex;
@@ -23,8 +22,8 @@ body {
 }
 
 .header img {
-    width: 10vh;
-    height: 10vh;
+    width: 9vh;
+    height: 9vh;
     margin-left: -5px;
 }
 
@@ -92,4 +91,30 @@ sup {
 sub {
     font-size: 1vw;
    
+}
+
+#h1 {
+    font-size: 4.8vh;
+}
+
+.notes {
+    width: 70%;
+    margin-top: -3vh;
+}
+
+li {
+    list-style:disc;
+}
+
+ul {
+    margin-top: -2.8vh;
+}
+
+.nestedList {
+    margin-top: 0;
+}
+
+.pheader {
+    font-weight: bold;
+    text-decoration: underline;
 }
