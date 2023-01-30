@@ -35,10 +35,12 @@ main {
 
 .sidebar {
     background-color: rgb(255, 255, 255);
-    max-width: 15vw;
+    min-width: 15vw;
     flex: auto;
     border: 0.38vw solid rgb(61, 151, 42);
     border-top: 0px;
+    position: fixed;
+    min-height:83.3vh;
 }
 
 .mainDisplay {
@@ -50,6 +52,9 @@ main {
    border: 0.38vw solid rgb(61, 151, 42);
    justify-content: center;
    align-items: center;
+   max-width: 80vw;
+   min-height:76vh;
+   margin-left: 17vw;
 }
 
 .mainheader {
@@ -82,6 +87,7 @@ td, th {
     justify-content: center;
     margin-top: 1vh;
     margin-bottom: 8vh;
+    content-visibility: hidden;
 }
 
 sup {
@@ -97,13 +103,15 @@ sub {
     font-size: 4.8vh;
 }
 
-.notes {
+.notesCoordCompound {
     width: 70%;
-    margin-top: -3vh;
+    margin-top: 0;
+    content-visibility: hidden;
 }
 
 li {
     list-style:disc;
+    width: 100%;
 }
 
 ul {
@@ -117,4 +125,40 @@ ul {
 .pheader {
     font-weight: bold;
     text-decoration: underline;
+}
+
+.welcome {
+    font-size: 7vh;
+    text-align: center;
+}
+
+.sectionHeader img {
+    width: 2vw;
+    height: 4vh;
+    transform: rotate(90deg);
+}
+
+.sectionHeader {
+    display: flex;
+    gap: 1vw;
+    width: 30vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnCordComp:hover,
+.commonIonsbtn:hover,
+.chap12btn:hover {
+    text-decoration: underline;
+}
+
+.chap12Notes img {
+    width: 38vw;
+    height: 35vh;
+    background-color: white;
+    border: 0.2vw solid rgb(61, 151, 42);
+}
+.chap12Notes {
+    content-visibility: hidden;
+    width: 70%;
 }
