@@ -1,0 +1,75 @@
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    height: 15vh;
+    background-color: rgb(255, 255, 255);
+    color: rgb(61, 151, 42);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: sticky; top: 0;
+    font-size: 2.8vh;
+    border: 0.3vw solid rgb(61, 151, 42);
+    box-shadow: 15px 0px 10px rgb(61, 151, 42);
+    flex-direction: column;
+}
+
+.header img {
+    width: 9vh;
+    height: 9vh;
+    margin-left: -5px;
+    
+}
+
+main {
+    display: flex;
+    background-color: rgb(255, 247, 199);
+    height: 1000px;
+}
+
+.sidebar {
+    background-color: rgb(255, 255, 255);
+    width: 15vw;
+    flex: auto;
+    border: 0.38vw solid rgb(61, 151, 42);
+    border-top: 0px;
+    position: fixed;
+    height:83.2vh;
+}
+
+.mainDisplay {
+   background-color: rgb(255, 255, 255);
+   margin: 20px;
+   flex: auto;
+   border: 0.38vw solid rgb(61, 151, 42);
+   margin-left: 17vw;
+}
+
+.mainheader {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.class {
+    margin-top: -9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.mainheader {
+    margin-top: 1vh;
+}
