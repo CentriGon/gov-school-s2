@@ -118,12 +118,6 @@ sub {
     font-size: 4.8vh;
 }
 
-.notesCoordCompound {
-    width: 70%;
-    margin-top: 0;
-    content-visibility: hidden;
-}
-
 li {
     list-style:disc;
     width: 100%;
@@ -162,9 +156,7 @@ ul {
     align-items: center;
 }
 
-.btnCordComp:hover,
-.commonIonsbtn:hover,
-.chap12btn:hover {
+.dropDownBtn:hover {
     text-decoration: underline;
 }
 
@@ -173,11 +165,6 @@ ul {
     height: 35vh;
     background-color: white;
     border: 0.2vw solid rgb(61, 151, 42);
-}
-
-.chap12Notes {
-    content-visibility: hidden;
-    width: 70%;
 }
 
 .atomGif {
@@ -191,6 +178,11 @@ span {
 #top,
 #bottom {
     display:inline;
+}
+
+#dropDown {
+    content-visibility: hidden;
+    width: 70%;
 }
 
 
